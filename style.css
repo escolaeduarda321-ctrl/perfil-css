@@ -1,0 +1,38 @@
+/* Variáveis CSS */
+:root {
+  --cor-primaria: #3498db;
+  --cor-fundo: #f4f4f4;
+  --fonte-base: Arial, sans-serif;
+}
+
+/* Estilo geral */
+body {
+  background-color: var(--cor-fundo);
+  font-family: var(--fonte-base);
+  margin: 0;
+}
+
+/* Cabeçalho */
+#cabecalho {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  background: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+#rodape {
+  background-color: var(--cor-primaria);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
